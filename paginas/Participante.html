@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participante</title>
+</head>
+<body>
+    <label for="">Bienvenido Participante</label>
+    <br>
+
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="idNombre">Nombre:</label></td>
+                <td><input type="text" id="idNombre"></td>
+            </tr>
+            <tr>
+                <td><label for="idApellido">Apellido:</label></td>
+                <td><input type="text" id="idApellido"></td>
+            </tr>
+            <tr>
+                <td><label for="idCiudad">Ciudad de residencia:</label></td>
+                <td><select name="select" id="idCiudad">
+                    <option value="Q">Quito</option>
+                    <option value="C">Cuenca</option>
+                    <option value="SA">Santo Domingo</option>
+                    <option value="G">Guayaquil</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="idConcurso">Concurso:</label></td>
+                <td><select name="select" id="idConcurso">
+                    <option value="L">League of Legends</option>
+                    <option value="D">DOTA</option>
+                    <option value="F">Fortnite</option>
+                    <option value="FF">Free Fire</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="idNacimiento">Fecha de nacimiento:</label></td>
+                <td><input type="date" id="idNacimiento"></td>
+            </tr>
+            <tr>
+                <td><label for="idFoto">Foto del participante:</label></td>
+                <td><input type="file" name="foto" id="idFoto"></td>
+            </tr>
+        </table>
+        <br>
+
+        <img src="../img/crear-concursos-entre-los-clientes-e1559506634654.jpg" alt="Imagen desconocida">
+        <table>
+            <tr>
+                <td><button>Guardar</button></td>
+                <td><button>Actualizar</button></td>
+                <td><button>Eliminar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

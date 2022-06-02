@@ -6,9 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo Estudiante</title>
+    <link rel="stylesheet" href="../css/mis_primeros_estilos.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+    <style>
+        .botonesNuevos{
+            color:yellow;
+            background-color: black;
+        }
+
+        h1{
+            color:green;
+        }
+    </style>
 </head>
 
 <body>
+    <img src="../img/sello_400.png" alt="Universidad Central del Ecuador" height="275" width="275">
+    <br>
+
+    <h1>Bienvenido Estudiante</h1>
+    <p>Texto de prueba de una URL</p>
+
     <form action="">
         <table>
             <tr>
@@ -18,6 +36,10 @@
             <tr>
                 <td><label for="idApellido">Apellido:</label></td>
                 <td><input type="text" id="idApellido"></td>
+            </tr>
+            <tr>
+                <td><label for="idNacimiento">Nacimiento:</label></td>
+                <td><input type="date" id="idNacimiento"></td>
             </tr>
             <tr>
                 <td><label for="idPais">Pais:</label></td>
@@ -31,9 +53,13 @@
         <br>
         <table>
             <tr>
-                <td><button>Guardar</button></td>
+                <td><button style="color: white;background-color: blue;">Guardar estilo en linea</button></td>
+                <td><button class="botonesNuevos">Guardar estilo interno</button></td>
+                <td><button class="botonesViejos">Guardar estilo externo</button></td>
+                <td><button id="idBotonNuevo">Guardar estilo id externo</button></td>
+                <td><input type="file"></td>
                 <td><button>Actualizar</button></td>
-                <td><button>Eliminar</button></td>
+                <td><button class="botonesNuevos">Eliminar</button></td>
             </tr>
         </table>
     </form>

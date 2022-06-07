@@ -1,0 +1,63 @@
+p{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: rgb(51, 42, 42);
+    padding-left: 10px;
+    font-variant: normal;
+    text-align: left;
+    text-decoration:none;
+    text-decoration-color: blue;
+    font-display: normal;
+}
+
+#bienvenida{
+    border-style: outset;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    background-color: rgb(109, 175, 153);
+    color: black;
+    margin-right: 50px;
+    padding: 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size:45px;
+}
+#mensajeInicio{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(51, 42, 42);
+    border-style: double;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.tablaDatos{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: blue;
+    padding-left: 10px;
+    table-layout: fixed;
+    background-color: antiquewhite;
+    margin-right: 50px;
+    text-align: left;
+    border-color: black;
+}
+
+button[type]{
+    background-color:beige;
+    color: black;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 5px;
+    border-style: dashed;
+    text-shadow: 30px;
+    stroke-opacity: inherit;
+}

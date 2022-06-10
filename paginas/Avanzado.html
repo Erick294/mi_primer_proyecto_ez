@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/mis_primeros_scripts.js"></script>
+    <link rel="stylesheet" href="../css/mis_primeros_estilos.css">
+    <title>Avanzado</title>
+</head>
+<body>
+    <h1 class="nuevo">Primer Texto</h1>
+    <h2 class="nuevo">Segundo texto</h2>
+    <h3 class="nuevo">Tercer texto</h3>
+    <h1 class="nuevo">Nuevo Texto</h1>
+
+    <button type="button" onclick="cambiarTextosClase()">Cambiar textos por clase</button>
+    <button type="button" onclick="cambiarTextosElemento()">Cambiar textos por elemento</button>
+
+    <div id="div1" onmouseover="mouseOver()" onmouseout="mouseOut()">Texto para nuevos eventos</div>
+    <div id="div1" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Texto para nuevos eventos</div>
+    <div id="div1" onmousedown="mouseOver(this)" onmouseout="mouseOut(this)">Texto para nuevos eventos</div>
+
+    <button onclick="imprimirPersona()">Imprimir</button>
+</body>
+</html>

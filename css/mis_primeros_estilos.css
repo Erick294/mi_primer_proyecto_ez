@@ -65,3 +65,9 @@ a[href]{
     color:red;
     background-color: black;
 }
+
+#div1{
+    border-style: dotted dashed solid none;
+    width: 100px;
+    height: 60px;
+}
